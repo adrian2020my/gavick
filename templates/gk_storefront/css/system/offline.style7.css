@@ -1,0 +1,277 @@
+/*
+#------------------------------------------------------------------------
+# StoreFront - April Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Basic elements */
+html { 
+	-webkit-font-smoothing: subpixel-antialiased; 
+}
+body {
+	background: #fff;
+	color: #666;
+	font-size: 14px;
+	font-family: Rosario, sans-serif;
+	font-weight: 300;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100%;
+	padding: 0;
+	word-wrap: break-word;
+}
+a {
+	color: #363636;
+	-webkit-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+	text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus { 
+	color: #5999e8; 
+}
+
+/* containers */
+#gkPage {
+	min-width: 280px;
+	max-width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+#gkPageTop {
+	width: 100%;
+}
+#gkPageWrap {
+	background: transparent;
+	padding: 0 0 30px 0;
+	width: 100%;
+}
+#frame {
+	clear: both;
+	margin: 0;
+	overflow: hidden;
+	padding: 42px 15px;
+}
+
+/* Logo  */
+#gkPageTop {
+	background: #1b1d1f;
+	text-align: center;
+}
+#gkPageTop:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+#gkLogo {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	text-indent: -999em;
+	text-shadow: none;
+}
+#gkLogo img {
+	display: block;
+	margin: 0 auto;
+}
+#gkLogo.cssLogo {
+	background: url('../../images/logo.png') no-repeat center center;
+	/* You can specify there logo size and background */
+	height: 63px;
+	width: 131px;
+}
+.svg #gkLogo.cssLogo {
+	background-image: url('../../images/logo.svg');
+}
+#gkLogo.text {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	height: 63px;
+	line-height: 63px;
+	margin: 0 auto;
+	text-align: center;
+	text-indent: 0;
+	text-transform: uppercase;
+	width: auto;
+}
+#gkLogo.text > span {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 63px;
+	padding: 0;
+	text-align: left;
+}
+#gkLogo.text .gkLogoSlogan {
+	color: #ddd;
+	display: block;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 1;
+	margin-top: -20px;
+	text-align: left;
+	text-transform: none;
+}
+
+/* Other elements */
+h2 {
+	color: #111;
+	font-size: 32px;
+	font-weight: 200;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+fieldset {
+	border: none;
+	margin: 70px auto 0;
+	width: 660px;
+	overflow: hidden;
+}
+p#username,
+p#password {
+	margin: 0 15px 15px 0;
+	float: left;
+	width: 265px;
+}
+p#remember,
+#form-login ul {
+	clear: both;
+}
+label {
+	
+	line-height: 1.2;
+	display: block;
+	margin: 0 0 10px 0;
+	color: #242424;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+div.buttons {
+	margin: 28px 0 0;
+}
+input[type="checkbox"] {
+	margin: 5px 5px 0 0;
+}
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="email"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-color: #BCBCBC #DADADA #e5e5e5;
+	border-style: solid;
+	border-width: 1px;
+	color: #777;
+	font-family: Arial,sans-serif;
+	padding: 12px 20px !important;
+	max-width: 100%!important;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="url"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	background: #fffef4;
+}
+button,
+.button,
+input.button,
+span.button,
+button.button,
+input[type="submit"],
+input[type="button"] {
+	 -webkit-appearance: none;
+	 background: #5999e8;
+	 border: 1px solid #5999e8;
+	 color: #fff !important;
+	 cursor: pointer;
+	 display: block;
+	 float: left;
+	 height: 38px;
+	 line-height: 37px;
+	 margin: -2px 5px 2px 2px;
+	 padding: 0 24px;
+	 text-align: center;
+	 text-transform: uppercase;
+	 transition: all 0.3s ease-out 0s;
+	 -webkit-transition: all .3s ease-out;
+	 -moz-transition: all .3s ease-out;
+	 -o-transition: all .3s ease-out;
+	 transition: all .3s ease-out
+}
+button:hover,
+.button:hover,
+input.button:hover,
+span.button:hover,
+button.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+	background: #000;
+	border-color: #000;
+}
+#remember {
+	float: left;
+	width: auto;
+}
+label[for="remember"] {
+	float: left;
+	line-height: 21px;
+}
+/* messages */
+#system-message dt {
+	display: none;
+}
+#system-message-container {
+	margin: 0 auto 5px auto!important;
+	max-width: 640px;
+	padding: 0;
+}
+#system-message dd ul {
+	list-style: none !important;
+	margin: 0!important;
+}
+#system-message dd {
+	background: #f5f5f5;
+	color: #080808;
+	padding: 5px 12px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 300;
+	margin: 0 0 10px 0;
+}
+#system-message dd.error {
+	background: #5999e8; 
+	color: #fff;
+}
+#system-message dd.notice {
+	background: #ffde00; 
+	color: #080808;
+}
+
+@media (max-width:720px) {
+	h2 {
+		font-size: 20px;
+	}
+	fieldset {
+		width: 270px;
+	}
+}

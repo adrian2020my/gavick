@@ -1,0 +1,201 @@
+/*
+#------------------------------------------------------------------------
+# StoreFront - April Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+.gkPage {
+	padding: 0 20px;
+}
+#gkMainMenu.gkMenuOverlay {
+	border: none;
+}
+.gkMenu > ul {
+	height: auto;
+	min-height: 21px;
+}
+.itemsContainer .itemsContainerWrap, 
+.itemContainer .itemsContainerWrap {
+	margin: 0!important;	
+}
+#k2Container article header h2 {
+	font-size: 32px;
+	line-height: 32px;
+}
+.k2FeedIcon a, 
+a.k2FeedIcon {
+	margin-top: 32px;
+}
+.demo-typo-col2,
+.demo-typo-col3,
+.demo-typo-col4 {
+	clear: both;
+	float: none;
+	padding-bottom: 20px;
+	width: 100%;
+}
+#gkBottom1 .box.double,
+#gkBottom1 .box.double ~ .box,
+#gkBottom2 .box.double,
+#gkBottom2 .box.double ~ .box,
+#gkBottom3 .box.double,
+#gkBottom3 .box.double ~ .box,
+#gkBottom4 .box.double,
+#gkBottom4 .box.double ~ .box,
+#gkBottom5 .box.double,
+#gkBottom5 .box.double ~ .box {
+	width: 50%!important;
+}
+
+/* Frontpage elements */
+.gkIsWrapper-gk_storefront figcaption h3 {
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0 0 18px 0;
+}
+.gkIsWrapper-gk_storefront figcaption h3 {
+	font-size: 30px;
+	line-height: 56px;
+	padding: 0 32px;
+}
+.gkIsWrapper-gk_storefront figcaption p {
+	font-size: 15px;
+	line-height: 50px;
+}
+.gkIsWrapper-gk_storefront .gkIsPagination {
+	bottom: 10px;
+}
+.gk-banners[data-cols="1"] li { width: 100%; }
+.gk-banners[data-cols="2"] li { width: 100%; }
+.gk-banners[data-cols="3"] li { width: 100%; }
+.gk-banners[data-cols="4"] li { width: 100%; }
+.gk-banners li div {
+	margin-bottom: 10px;
+}
+.gk-banners li div img {
+	max-width: 30%!important;
+}
+.products .nspArt.nspCol4 { width: 48.5%; }
+.products .nspArt.nspCol5 { width: 48.5%; }
+.products .nspArt.nspCol6 { width: 48.5%; }
+.products .nspImageWrapper {
+	margin: 0 auto!important;
+	width: 100%;
+}
+.frontpage #gkHeader {
+	margin: 0 0 20px 0;
+}
+#gkTop1, #gkTop2 {
+	padding: 15px 0;
+}
+.box.parallax {
+	margin: -30px 0!important;
+	padding: 90px 0!important;
+}
+#gkBottom1, 
+#gkBottom2, 
+#gkBottom3, 
+#gkBottom4 {
+	padding: 30px 0;
+}
+.gk-features li {
+	margin: 0 0 10px 0;
+}
+.gk-features[data-cols="1"] li { width: 100%; }
+.gk-features[data-cols="2"] li { width: 50%; }
+.gk-features[data-cols="3"] li { width: 50%; }
+.gk-features[data-cols="4"] li { width: 50%; }
+
+/* Overlay menu */
+.gkMenuOverlay .gkMenu > ul > li > a {
+	font-size: 11px;
+	padding: 0 12px;
+}
+.gkMenuOverlay .gkMenu > ul > li.haschild > a:after {
+	right: -2px;
+}
+#gkMenuOverlayWrap {
+    margin:  -20px 0 0 -260px!important;
+    max-width: 520px!important;
+}
+#gkMenuOverlayWrap.open {
+    margin-top: 0;
+}
+
+#gkMenuOverlayContent .gkcol li {
+    font-size: 20px;
+}
+
+#gkMenuOverlayContent .gkcol li,
+#gkMenuOverlayContent .gkcol li a {
+    line-height: 58px;
+}
+
+/* VM */
+.productdetails-view h1 {
+    font-size: 32px;
+}
+.product-price span.PricesalesPrice {
+	font-size: 32px;
+}
+div.PricesalesPrice {
+	font-size: 14px;
+	padding: 12px;
+}
+
+/* HikaShop */
+.hikashop_checkout_login_left_part,
+.hikashop_checkout_login_right_part {
+	clear: both;
+	width: 100%;
+}
+.hikashop_subcategories > div,
+.hikashop_products > div {
+	width: 50%!important;
+}
+.hikashop_subcategories > div[style="clear:both"],
+.hikashop_products > div[style="clear:both"] {
+	display: none;
+}
+
+/* Cookie consent plugin */
+@media (max-width: 660px) {
+    body #cc-notification h2, 
+    body #cc-notification h3, 
+    body #cc-notification p {
+        font-size: 12px!important;
+        margin-bottom:0!important;
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+
+    body #cc-notification h2 span, 
+    body #cc-notification h2 {
+        font-size: 12px!important;
+    }
+
+    body #cc-notification #cc-notification-wrapper {
+        padding: 10px 32px 0!important;
+    }
+
+    body #cc-notification ul.cc-notification-buttons {
+        clear: both!important;
+        width: 100%!important;
+        position: static!important;
+        text-align: center;
+    }
+
+    body #cc-notification ul.cc-notification-buttons li {
+        float: none!important;
+        display: inline-block;
+    }
+
+    body #cc-notification a, 
+    body #cc-notification a:visited {
+        font-size: 12px!important;
+    }
+}

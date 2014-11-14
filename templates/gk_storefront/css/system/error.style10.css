@@ -1,0 +1,168 @@
+/*
+#------------------------------------------------------------------------
+# StoreFront - April Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Basic elements */
+html { -webkit-font-smoothing: subpixel-antialiased; }
+body {
+	background: #fff;
+	color: #666;
+	font-size: 14px;
+	font-family: Rosario, sans-serif;
+	font-weight: 300;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100%;
+	padding: 0;
+	word-wrap: break-word;
+}
+a {
+	color: #9c9985;
+	-webkit-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+	text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus { color: #111; }
+/* containers */
+#gkPage {
+	padding: 0;
+	margin: 0 auto;
+}
+#gkPageTop { width: 100%; }
+#gkPageWrap {
+	background: transparent;
+	padding: 0 0 30px 0;
+}
+#frame {
+	border: 1px solid #E5E5E5;
+	clear: both;
+	margin: 80px auto;
+	overflow: hidden;
+	padding: 0 52px 52px;
+	text-align: center;
+	max-width: 860px;
+}
+#errorNumber {
+	float: left;
+	padding: 31px 0 0;
+	width: 39%;
+}
+/* Logo  */
+#gkPageTop {
+	background: #1b1d1f;
+	text-align: center;
+}
+#gkPageTop:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+#gkLogo {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	text-indent: -999em;
+	text-shadow: none;
+}
+#gkLogo img {
+	display: block;
+	margin: 0;
+}
+#gkLogo.cssLogo {
+	background: url('../../images/logo.png') no-repeat center center;
+	/* You can specify there logo size and background */
+	height: 63px;
+	width: 131px;
+}
+.svg #gkLogo.cssLogo { background-image: url('../../images/logo.svg'); }
+#gkLogo.text {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	height: 63px;
+	line-height: 63px;
+	margin: 0 auto;
+	text-align: center;
+	text-indent: 0;
+	text-transform: uppercase;
+	width: auto;
+}
+#gkLogo.text > span {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 63px;
+	padding: 0;
+	text-align: left;
+}
+#gkLogo.text .gkLogoSlogan {
+	color: #ddd;
+	display: block;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 1;
+	margin-top: -20px;
+	text-align: left;
+	text-transform: none;
+}
+/* Other elements */
+h1 {
+	color: #9c9985;
+	font-size: 72px;
+	font-weight: 200;
+	margin: 22px 0 0;
+}
+h2 {
+	color: #1B1D1F;
+	border: 1px solid #1B1D1F;
+	display: inline-block;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 90px;
+	padding: 0 50px;
+	position: relative;
+	text-transform: uppercase;
+	width: auto;
+}
+h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 300;
+	color: #1B1D1F;
+}
+h3:after {
+	border-bottom: 1px solid #e5e5e5;
+	content: "";
+	display: block;
+	margin: 42px auto 12px;
+	width: 280px;
+}
+#errorboxbody {
+	text-align: center;
+	padding: 0 0 36px 0;
+}
+
+@media (max-width:1000px) {
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+h2 span { font-size: 120px; }
+}
+
+@media (max-width:720px) {
+h2 { font-size: 20px; }
+h3 { font-size: 14px; }
+h2 span { font-size: 100px; }
+}

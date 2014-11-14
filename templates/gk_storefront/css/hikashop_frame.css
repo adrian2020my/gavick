@@ -1,0 +1,259 @@
+/*
+#------------------------------------------------------------------------
+# StoreFront - April Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Basic elements */
+html { -webkit-font-smoothing: subpixel-antialiased; }
+body {
+	background: #fff;
+	color: #666;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100%;
+	padding: 0;
+	word-wrap: break-word;
+}
+a,
+#gkMainbody header h1 a:active,
+#gkMainbody header h1 a:focus,
+#gkMainbody header h1 a:hover,
+#gkMainbody header h2 a:active,
+#gkMainbody header h2 a:focus,
+#gkMainbody header h2 a:hover,
+#k2Container article header h2 a:active,
+#k2Container article header h2 a:focus,
+#k2Container article header h2 a:hover {
+	color: #e81f00;
+	-webkit-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+	text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus,
+#gkMainbody header h1 a,
+#gkMainbody header h2 a,
+#k2Container article header h2 a,
+#gkSidebar .box a:hover { color: #1B1D1F; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #1B1D1F;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+h1 {
+	font-size: 32px;
+	font-weight: 500;
+}
+h2,
+.componentheading {
+	font-size: 26px;
+	font-weight: 300;
+}
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul li { line-height: 2.0; }
+p { margin: 1em 0 2em; }
+
+/* UI Elements */
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="email"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #fff;
+	border-color: #bcbcbc #dadada #e5e5e5;
+	border-style: solid;
+	border-width: 1px;
+	color: #777;
+	font-family: Arial, sans-serif;
+	padding: 10px 12px !important;
+	max-width: 100%!important;
+}
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	height: auto;
+	max-width: 100%!important;
+	padding: 24px
+}
+legend {
+	color: #1B1D1F;
+	
+	
+}
+select {
+	height: inherit;
+	padding: 6px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	height: 39px;
+	line-height: 39px;
+	padding: 12px;
+}
+html.-moz-select { padding: 3px 5px }
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="url"]:focus,
+input[type="email"]:focus,
+textarea:focus { background: #fffef4; }
+button,
+.button,
+input.button,
+span.button,
+button.button,
+div.button,
+input[type="submit"],
+input[type="button"],
+.pagenav-prev a,
+.pagenav-next a,
+.readon,
+#gkMainbody .itemReadMore,
+#gkMainbody .readmore > a,
+.button.invert:active,
+.button.invert:focus,
+.button.invert:hover,
+.gkShowCart a {
+	-webkit-appearance: none;
+	background: #eee;
+	border: 1px solid #eee;
+	color: #1b1d1f!important;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	height: 38px;
+	line-height: 39px;
+	margin: 0 5px 2px 2px;
+	padding: 0 24px;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+button:hover,
+.button:hover,
+input.button:hover,
+span.button:hover,
+button.button:hover,
+div.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.pagenav-prev a:hover,
+.pagenav-next a:hover,
+.readon:hover,
+#gkMainbody .itemReadMore:active,
+#gkMainbody .itemReadMore:focus,
+#gkMainbody .itemReadMore:hover,
+#gkMainbody .readmore > a:active,
+#gkMainbody .readmore > a:focus,
+#gkMainbody .readmore > a:hover,
+.button.invert,
+.gkShowCart a:hover {
+	background: #e81f00;
+	border-color: #e81f00;
+	color: #fff!important;
+}
+.bigger-button,
+.bigger-button:active,
+.bigger-button:focus,
+.bigger-button:hover {
+	font-weight: 500!important;
+	height: 42px!important;
+	line-height: 43px!important;
+	margin: 30px 0!important;
+	padding: 0 16px!important;
+}
+input[type=checkbox],
+.checkbox,
+input[type=radio],
+.radio {
+	background: transparent!important;
+	border: none!important;
+	height: auto!important;
+	margin-top: 7px!important
+}
+select[size] {
+	font-size: 12px;
+	height: auto
+}
+select[size="1"] {
+	height: 39px;
+	line-height: 39px;
+}
+.invalid {
+	background: #fffef4;
+	border: 1px solid #e25527!important;
+	color: #000
+}
+label {
+	color: #111;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 0 6px 0 0;
+}
+label.invalid {
+	background: #fff;
+	border: none!important;
+	color: #e25527!important
+}
+fieldset.filters > div > * {
+	float: left;
+	margin-right: 10px
+}
+fieldset.filters > div > label { margin-top: 6px; }
+section article { margin-top: 20px; }
+section > header {
+	margin: 0 0 32px;
+	padding: 0
+}
+section > header div p {
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1;
+	text-transform: uppercase
+}
+section img {
+	height: auto!important;
+	max-width: 100%!important
+}

@@ -1,0 +1,107 @@
+/*
+#------------------------------------------------------------------------
+# StoreFront - April Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+body {
+	line-height: 1.8;
+	color: #444;
+	font: 12px/1.8 Arial, Verdana;
+}
+h2 {
+	font: normal 20px/1.0 Arial, Verdana, sans-serif;
+	color: #333;
+	margin: 0!important;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	transition: color 0.15s linear;
+}
+a:active,
+a:focus,
+a:hover {
+	 color: #e81f00;
+}
+a > img {
+	display: none!important;
+}
+#mailto-window {
+	padding: 0 20px;
+}
+div.formelm { margin: 6px 0}
+form div input {
+	font-family: Arial, Helvetica, sans-serif;
+	border: none;
+	border: 1px solid #ddd;
+	width: 96%;
+}
+#mailtoForm p button {
+	float: right!important;
+}
+#mailtoForm p button:first-child {
+	float: left!important;
+}
+label {
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 1.6;
+	margin: 0;
+	float: left;
+	width: 20%;
+}
+input {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-weight: 300;
+	color: #848484;
+	height: 36px;
+	line-height: 1.75;
+	max-width: 100%!important;
+	padding: 0 10px;
+}
+input:focus {
+	background: #fffef4;
+}
+button,
+.button,
+input[type="submit"],
+input[type="button"] {
+	-webkit-appearance: none;
+	background: #e81f00;
+	border: 1px solid #e81f00;
+	color: #fff!important;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 14px;
+	height: 38px;
+	line-height: 37px;
+	margin: 0 5px 2px 2px;
+	padding: 0 24px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all 0.3s ease-out 0s;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+button:hover,
+.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+	background: #000;
+	border-color: #000;
+	color: #fff!important;
+}

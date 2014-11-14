@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+	<name>System - GK One Page Checkout</name>
+	<author>GavickPro</author>
+	<authorEmail>support@gavick.com</authorEmail>
+	<authorUrl>http://gavick.com</authorUrl>
+	<copyright>Copyright (C) 2010 - 2014 GavickPro. All rights reserved.</copyright>
+	<license></license>
+	<version>1.0</version>
+	<description>Additional plugin for GavickPro OnePage checkout</description>	
+	<files>
+		<filename plugin="gkonepage">gkonepage.php</filename>
+	</files>	
+</extension>

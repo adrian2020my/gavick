@@ -1,0 +1,209 @@
+/*
+#------------------------------------------------------------------------
+# inStyle - November Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+ 
+/* Style 6 */
+
+/* template.css */
+a,
+#gkMainbody header h1 a:active,
+#gkMainbody header h1 a:focus,
+#gkMainbody header h1 a:hover,
+#gkMainbody header h2 a:active,
+#gkMainbody header h2 a:focus,
+#gkMainbody header h2 a:hover,
+#k2Container article header h2 a:active,
+#k2Container article header h2 a:focus,
+#k2Container article header h2 a:hover { color: #6191a5; }
+#gkCartCounter.highlighted { color: #6191a5; }
+#gkTopMenu a:active,
+#gkTopMenu a:focus,
+#gkTopMenu a:hover { color: #6191a5; }
+.breadcrumbs li a:hover { color: #6191a5; }
+#gkFooter a:active,
+#gkFooter a:focus,
+#gkFooter a:hover { color: #6191a5; }
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover { color: #6191a5!important; }
+.gkPopupWrap h3 a { color: #6191a5; }
+
+/* joomla.css */
+button:hover,
+.button:hover,
+input.button:hover,
+span.button:hover,
+button.button:hover,
+div.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.pagenav-prev a:hover,
+.pagenav-next a:hover,
+.readon:hover,
+#gkMainbody .itemReadMore:active,
+#gkMainbody .itemReadMore:focus,
+#gkMainbody .itemReadMore:hover,
+#gkMainbody .readmore > a:active,
+#gkMainbody .readmore > a:focus,
+#gkMainbody .readmore > a:hover,
+.button.invert,
+.gkShowCart a:hover {
+	background: #6191a5;
+	border-color: #6191a5;
+}
+article header.itemHasImage h1 a:active,
+article header.itemHasImage h1 a:focus,
+article header.itemHasImage h1 a:hover { color: #6191a5!important; }
+.tip-title { background: #6191a5; }
+div.bannerfooter { color: #6191a5; }
+dl#tabs dt.tabs span h3 a:hover,
+dl.tabs dt.tabs span h3 a:hover { color: #6191a5 }
+.autocompleter-queried { color: #6191a5!important }
+.menu li a:hover { color: #6191a5 !important; }
+
+/* gk_stuff.css */
+.nspPagination li:hover,
+.nspPagination li.active { background-color: #6191a5; }
+.nspNext:hover:after,
+.nspPrev:hover:after { color: #6191a5; }
+.nspArt h4.nspHeader a:hover { color: #6191a5 !important }
+.box.dark a.readon { background: #6191a5; }
+.products .nspArt:hover .addtocart-button { background: #6191a5!important; }
+.products .nspBadge { background: #6191a5; }
+.gk-newsletter input[type="button"]:active,
+.gk-newsletter input[type="button"]:focus,
+.gk-newsletter input[type="button"]:hover { background: #6191a5; }
+.gk-social-icons li a:hover:before { color: #6191a5; }
+.gk-features li.highlighted strong { background: #6191a5; border: 1px solid #6191a5; }
+.gkMenu .nspArt .readon { color: #6191a5!important; }
+
+/* menu.css */
+.gkMenu > ul li div.childcontent a:hover { color: #6191a5!important; }
+#gkMenuOverlayClose,
+#gkMenuOverlayContent .gkcol li a:active,
+#gkMenuOverlayContent .gkcol li a:focus,
+#gkMenuOverlayContent .gkcol li a:hover { color: #6191a5; }
+
+/* k2.css */
+.k2FeedIcon a:before,
+a.k2FeedIcon:before { color: #6191a5; }
+.activeCategory a { color: #6191a5 }
+.itemComments .icon-comments { background: #6191a5; }
+.itemImageBlock sup { background: #6191a5; }
+.k2AuthorsListBlock ul li a.abAuthorLatestItem:hover { color: #6191a5; }
+.k2CalendarBlock table.calendar tr td.calendarDateLinked a:hover { background: #6191a5; }
+.k2CalendarBlock table.calendar tr td.calendarToday { background: #6191a5; }
+table.calendar tr td.calendarTodayLinked a { color: #6191a5; }
+.k2CalendarBlock table.calendar tr td.calendarTodayLinked a:hover { background: #6191a5; }
+.calendarNavLink { color: #6191a5; }
+.k2TagCloudBlock a:hover { color: #6191a5 }
+
+/* vm.css */
+body input.addtocart-button { background: #6191a5 !important; }
+.category-view .row .category .spacer h2 a:hover,
+.product-related-products > div a:hover,
+.product-related-categories > div a:hover,
+table.cart-summary a:hover { color: #6191a5 }
+#facebox .popup > div > div > a { background: #6191a5; }
+#ui-tabs h4 { color: #6191a5; }
+#ui-tabs ul#tabs li.current { color: #6191a5; }
+#ui-tabs ul#tabs li:hover { color: #6191a5; }
+.general-bg,
+input.vm-default,
+a.product-details,
+a.details,
+div.details { color: #6191a5; }
+.vmGkCartProducts h3 a:hover { color: #1b1d1f }
+.featured-view .spacer h3 a:hover,
+.latest-view .spacer h3 a:hover,
+.topten-view .spacer h3 a:hover,
+.related-products-view .spacer h3 a:hover,
+.browse-view .row .product .spacer h2 a:hover,
+h3.catProductTitle a:hover { color: #6191a5!important }
+.productdetails-view .product-related-products a:hover,
+.productdetails-view .product-related-categories a:hover { color: #6191a5 !important }
+.terms-of-service h5 a,
+.terms-of-service h5 a:visited { color: #6191a5; }
+.vm-button-correct,
+.vm-button-correct:link,
+.vm-button-correct:visited { background: #6191a5; }
+.vmCartModule dl dt a:hover { color: #6191a5 }
+a.product-details,
+a.details,
+div.details { display: inline-block }
+input.addtoCart:hover { background: #6191a5 }
+#com-form-login a:hover { color: #6191a5 !important }
+.box .addtocart-button:hover { background: #6191a5 !important }
+
+
+/* Prices */
+.products .nspInfo span,
+.catProductPrice > div > span,
+.vmGkCartProducts .gkPrice,
+.gkTotal,
+.vmCartModule dd strong,
+.PricebillTotal,
+div.PricesalesPrice,
+.product-price span.PricesalesPrice,
+.hikashop_option_price_value,
+#hikashop_product_right_part .hikashop_product_price_full.hikashop_product_msrp_price,
+#hikashop_product_right_part .hikashop_product_price_full.hikashop_product_msrp_price span,
+span.hikashop_product_price,
+span.hikashop_checkout_cart_taxes,
+span.hikashop_checkout_cart_final_total,
+#htmlfieldset_products .hikashop_order_item_total_value,
+#htmlfieldset_products .hikashop_order_subtotal_value,
+#htmlfieldset_products .hikashop_order_shipping_value,
+#htmlfieldset_products .hikashop_order_total_value,
+.hikashop_order_tax_value,
+#hikashop_cart_product_listing .hika_show_cart_total_price,
+.hikashop_checkout_cart_shipping {
+    color: #e81f00;
+}
+
+/* hikashop.css */
+.hikashop_category_name a:hover { color: #6191a5 }
+.hikashop_cart_product_name a:hover { color: #6191a5 }
+.hikashop_slide_numbers:hover { background-color: #6191a5; }
+.hikashop_slide_pagination_selected { background-color: #6191a5; }
+.hikashop_slide_dot_basic:hover, 
+.hikashop_slide_dot_selected { background: #6191a5; }
+.hikashop_compare_table .hikashop_product_name_main:hover { color: #6191a5 }
+.list-footer span.pagenav:hover,
+.hikashop_subcategories_pagination .list-footer span.pagenav:hover,
+.list-footer a.pagenav:hover { color: #6191a5; }
+.hika_comment_listing_name { color: #6191a5; }
+.hikashop_product_list_item a:hover { color: #6191a5 }
+#hikashop_cart .hikashop_cart_module_product_name_value a:hover { color: #6191a5 }
+.hikashop_subcategories h3 a:hover { color: #6191a5 }
+.hikashop_category_list_item a:hover { color: #6191a5 }
+.hikashop_subcategories h4 a:hover { color: #6191a5 }
+.hikashop_category_list_item a:hover { color: #6191a5 }
+#hikashop_carts_listing div.toolbar a:hover,
+#hikashop_affiliate_main div.toolbar a:hover,
+#hikashop_address_listing div.toolbar a:hover { color: #6191a5 }
+#hikashop_order_listing th a:hover { color: #6191a5 }
+#htmlfieldset_products .hikashop_order_product_name:hover { color: #6191a5 }
+#htmlfieldset_products a:hover { color: #6191a5; }
+#hikashop_cart_listing td a:hover { color: #6191a5 }
+#hikashop_cart_product_listing a:hover { color: #6191a5 }
+.hikashop_banner_row a { color: #6191a5; }
+#hikashop_entries_info a,
+#hikashop_new_entry a { color: #6191a5; }
+#hikashop_entries_info a:hover,
+#hikashop_new_entry a:hover { color: #6191a5; }
+#hikashop_download_listing a:hover { color: #6191a5; }
+.hikashop_category_information h2 a:active,
+.hikashop_category_information h2 a:focus,
+.hikashop_category_information h2 a:hover { color: #6191a5; }
+#hikashop_checkout_login_left_part li a:hover { color: #6191a5; }
+.productDetails .hikashop_cart_input_button { background: #6191a5; }
+.productDetails a.hikashop_product_quantity_field_change:hover { color: #6191a5; }
+#hikashop_checkout_address_shipping_selector,
+#hikashop_checkout_address_billing_selector { color: #6191a5; }

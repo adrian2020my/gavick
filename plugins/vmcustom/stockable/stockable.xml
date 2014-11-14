@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension version="1.5" type="plugin" group="vmcustom" >
+    <name>Stockable</name>
+    <creationDate>May 29 2014</creationDate>
+    <author>The VirtueMart Development Team</author>
+    <authorUrl>http://www.virtuemart.net</authorUrl>
+    <copyright>Copyright (C) 2004-2012 Virtuemart Team. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>2.6.6</version>
+    <description>VMCUSTOM_STOCKABLE_DESC</description>
+    <files>
+        <filename plugin="stockable">stockable.php</filename>
+        <folder>language</folder>
+    </files>
+    <params addpath="/administrator/components/com_virtuemart/elements">
+        <param type="vmjpluginwarning" />
+		<param type="spacer" default="VMCUSTOM_STOCKABLE_USAGE"   />
+        <param name="selectname1" type="text"  size="30"  default="" label="VMCUSTOM_STOCKABLE_SELECTNAME" description="VMCUSTOM_STOCKABLE_SELECTNAME_DESC" />
+        <param name="selectoptions1" type="textarea"  rows="10" cols="25" label="VMCUSTOM_STOCKABLE_SELECTOPTIONS" description="VMCUSTOM_STOCKABLE_SELECTOPTIONS_DESC" />
+        <param name="selectname2" type="text"  size="30"  default="" label="VMCUSTOM_STOCKABLE_SELECTNAME" description="VMCUSTOM_STOCKABLE_SELECTNAME_DESC" />
+        <param name="selectoptions2" type="textarea"  rows="10" cols="25" label="VMCUSTOM_STOCKABLE_SELECTOPTIONS" description="VMCUSTOM_STOCKABLE_SELECTOPTIONS_DESC" />
+        <param name="selectname3" type="text"  size="30"  default="" label="VMCUSTOM_STOCKABLE_SELECTNAME" description="VMCUSTOM_STOCKABLE_SELECTNAME_DESC" />
+        <param name="selectoptions3" type="textarea"  rows="10" cols="25" label="VMCUSTOM_STOCKABLE_SELECTOPTIONS" description="VMCUSTOM_STOCKABLE_SELECTOPTIONS_DESC" />
+        <param name="selectname4" type="text"  size="30"  default="" label="VMCUSTOM_STOCKABLE_SELECTNAME" description="VMCUSTOM_STOCKABLE_SELECTNAME_DESC" />
+        <param name="selectoptions4" type="textarea"  rows="10" cols="25" label="VMCUSTOM_STOCKABLE_SELECTOPTIONS" description="VMCUSTOM_STOCKABLE_SELECTOPTIONS_DESC" />
+    </params>
+    <updateservers>
+        <!-- Note: No spaces or linebreaks allowed between the server tags -->
+        <server type="extension" name="VirtueMart plg_vmcustom_stockable Update Site"><![CDATA[http://virtuemart.net/releases/vm2/plg_vmcustom_stockable_update.xml]]></server>
+    </updateservers>
+</extension>
